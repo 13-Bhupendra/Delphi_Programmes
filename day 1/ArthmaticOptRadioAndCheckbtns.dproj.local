@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.900,E:\Delphi Programms\day 1\ArthmaticOptRadioAndCheckbtns.dproj=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.410,=E:\Delphi Programms\day 1\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.749,=E:\Delphi Programms\day 1\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.563,E:\Delphi Programms\day 1\PatternAndUDFForm.dfm=E:\Delphi Programms\day 1\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.563,E:\Delphi Programms\day 1\PatternAndUDFForm.pas=E:\Delphi Programms\day 1\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.143,E:\Delphi Programms\day 1\ArthmaticOptRadioAndCheckbtn.pas=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.966,=E:\Delphi Programms\day 1\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.089,E:\Delphi Programms\day 1\Unit1.dfm=E:\Delphi Programms\day 1\AcMasterForm.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.814,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.143,E:\Delphi Programms\day 1\ArthmaticOptRadioAndCheckbtn.dfm=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.286,E:\Delphi Programms\day 1\Unit1.pas=E:\Delphi Programms\day 1\TransMainForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.089,E:\Delphi Programms\day 1\Unit1.pas=E:\Delphi Programms\day 1\AcMasterForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.286,E:\Delphi Programms\day 1\Unit1.dfm=E:\Delphi Programms\day 1\TransMainForm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
