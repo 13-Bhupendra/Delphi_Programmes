@@ -28,42 +28,42 @@ object FormAc: TFormAc
     TabOrder = 0
     object Label1: TLabel
       Left = 41
-      Top = 45
+      Top = 56
       Width = 73
       Height = 19
       Caption = 'Ac Name : '
     end
     object Label2: TLabel
       Left = 72
-      Top = 90
+      Top = 101
       Width = 42
       Height = 19
       Caption = 'City :  '
     end
     object Label3: TLabel
       Left = 66
-      Top = 135
+      Top = 146
       Width = 48
       Height = 19
       Caption = 'State : '
     end
     object Label4: TLabel
       Left = 48
-      Top = 178
+      Top = 189
       Width = 66
       Height = 19
       Caption = 'Pan No. : '
     end
     object Label5: TLabel
       Left = 52
-      Top = 224
+      Top = 235
       Width = 62
       Height = 19
       Caption = 'Gst No. : '
     end
     object DBEditAcName: TwwDBEdit
       Left = 120
-      Top = 42
+      Top = 53
       Width = 241
       Height = 27
       DataField = 'AcName'
@@ -75,7 +75,7 @@ object FormAc: TFormAc
     end
     object DBEditPanNo: TwwDBEdit
       Left = 120
-      Top = 175
+      Top = 186
       Width = 241
       Height = 27
       DataField = 'PanNo'
@@ -87,7 +87,7 @@ object FormAc: TFormAc
     end
     object DBEditGstNo: TwwDBEdit
       Left = 120
-      Top = 221
+      Top = 232
       Width = 241
       Height = 27
       DataField = 'GstNo'
@@ -99,7 +99,7 @@ object FormAc: TFormAc
     end
     object DBEditState: TwwDBEdit
       Left = 120
-      Top = 132
+      Top = 143
       Width = 241
       Height = 27
       DataField = 'State'
@@ -111,7 +111,7 @@ object FormAc: TFormAc
     end
     object DBNavigator1: TDBNavigator
       Left = 41
-      Top = 264
+      Top = 275
       Width = 320
       Height = 33
       DataSource = DataAc.DataSrcAcMaster
@@ -119,7 +119,7 @@ object FormAc: TFormAc
     end
     object DbLkpCmbCity: TwwDBLookupCombo
       Left = 120
-      Top = 87
+      Top = 98
       Width = 241
       Height = 27
       DropDownAlignment = taLeftJustify
@@ -129,11 +129,32 @@ object FormAc: TFormAc
       DataSource = DataAc.DataSrcAcMaster
       LookupTable = DataAc.QryCityLkp
       LookupField = 'CityID'
+      PopupMenu = PopupMenuCity
       TabOrder = 5
       AutoDropDown = False
       ShowButton = True
       PreciseEditRegion = False
       AllowClearKey = False
+    end
+    object Panel2: TPanel
+      Left = 1
+      Top = 1
+      Width = 885
+      Height = 32
+      Align = alTop
+      TabOrder = 6
+      object BtnOpenDlgAc: TButton
+        Left = 1
+        Top = 1
+        Width = 89
+        Height = 30
+        Align = alLeft
+        Caption = 'open'
+        TabOrder = 0
+        ExplicitLeft = 0
+        ExplicitTop = 4
+        ExplicitHeight = 25
+      end
     end
   end
   object wwDBGrid1: TwwDBGrid
@@ -178,11 +199,20 @@ object FormAc: TFormAc
       DataSource = DataAc.DataSrcAcMaster
       LookupTable = DataAc.QryCityLkp
       LookupField = 'CityID'
+      PopupMenu = PopupMenuCity
       TabOrder = 0
       AutoDropDown = False
       ShowButton = True
       PreciseEditRegion = False
       AllowClearKey = False
+    end
+  end
+  object PopupMenuCity: TPopupMenu
+    Left = 792
+    Top = 48
+    object City1: TMenuItem
+      Caption = 'City'
+      OnClick = City1Click
     end
   end
 end

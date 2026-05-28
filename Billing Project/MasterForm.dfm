@@ -1,8 +1,8 @@
 object FormMaster: TFormMaster
-  Left = 0
-  Top = 0
+  Left = 384
+  Top = 309
   Caption = 'Ac Billing System'
-  ClientHeight = 455
+  ClientHeight = 431
   ClientWidth = 886
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,7 +13,7 @@ object FormMaster: TFormMaster
   FormStyle = fsMDIForm
   Menu = MainMenu
   OldCreateOrder = False
-  Position = poDesktopCenter
+  Position = poDesigned
   WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13

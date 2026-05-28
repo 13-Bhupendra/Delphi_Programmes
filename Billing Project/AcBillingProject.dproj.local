@@ -1,19 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.119,E:\Delphi Programms\Billing Project\Unit2.dfm=E:\Delphi Programms\Billing Project\TransData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.778,E:\Delphi Programms\Billing Project\AcData.dfm=E:\Delphi Programms\Billing Project\TransData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.340,=E:\Delphi Programms\Billing Project\CityForm.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.137,E:\Delphi Programms\Billing Project\AcMasterForm.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.942,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.239,E:\Delphi Programms\Billing Project\AcData.dfm=E:\Delphi Programms\Billing Project\TransData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.871,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.927,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.454,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.778,E:\Delphi Programms\Billing Project\AcData.dfm=E:\Delphi Programms\Billing Project\TransData.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.119,E:\Delphi Programms\Billing Project\Unit2.dfm=E:\Delphi Programms\Billing Project\TransData.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.942,=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.340,=E:\Delphi Programms\Billing Project\CityForm.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.589,E:\Delphi Programms\Billing Project\ItemMAsterForm.dfm=E:\Delphi Programms\Billing Project\Unit1.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.122,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.778,E:\Delphi Programms\Billing Project\AcData.pas=E:\Delphi Programms\Billing Project\TransData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.454,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.871,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.927,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.978,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.137,E:\Delphi Programms\Billing Project\AcMasterForm.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.239,E:\Delphi Programms\Billing Project\AcData.pas=E:\Delphi Programms\Billing Project\TransData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.778,E:\Delphi Programms\Billing Project\AcData.pas=E:\Delphi Programms\Billing Project\TransData.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.367,E:\Delphi Programms\Billing Project\TransMainForm.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.336,=E:\Delphi Programms\Billing Project\CityData.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.137,E:\Delphi Programms\Billing Project\AcMasterForm.dfm=E:\Delphi Programms\Billing Project\Unit1.dfm</Transaction>
@@ -23,29 +24,29 @@
     <Transaction>1899-12-30 00:00:00.000.761,E:\Delphi Programms\Billing Project\Unit1.dfm=E:\Delphi Programms\Billing Project\ItemData.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.344,E:\Delphi Programms\Billing Project\Unit1.dfm=E:\Delphi Programms\Billing Project\AcData.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.371,E:\Delphi Programms\Billing Project\Unit1.dfm=E:\Delphi Programms\Billing Project\ItemData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.978,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.748,E:\Delphi Programms\Billing Project\TransData.pas=</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.037,E:\Delphi Programms\Billing Project\TransData.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.038,E:\Delphi Programms\Billing Project\TransData.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.000,E:\Delphi Programms\Billing Project\TransData.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.000,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\Unit1.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.230,E:\Delphi Programms\Billing Project\MasterForm.pas=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.807,=E:\Delphi Programms\Billing Project\TransOpenDlgForm.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.037,E:\Delphi Programms\Billing Project\TransData.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.367,E:\Delphi Programms\Billing Project\TransMainForm.dfm=E:\Delphi Programms\Billing Project\Unit1.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.230,E:\Delphi Programms\Billing Project\MasterForm.dfm=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.589,E:\Delphi Programms\Billing Project\ItemMAsterForm.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.038,E:\Delphi Programms\Billing Project\TransData.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.293,=E:\Delphi Programms\Billing Project\Untitled1.js</Transaction>
     <Transaction>1899-12-30 00:00:00.000.703,E:\Delphi Programms\Billing Project\AcBillingProject.dproj=C:\Users\HP\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.038,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\AcData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.344,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.243,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.371,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\ItemData.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.550,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.761,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\ItemData.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.503,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.037,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\AcData.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.130,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.819,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.589,E:\Delphi Programms\Billing Project\ItemMAsterForm.pas=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.000,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\Unit1.dfm</Transaction>
     <Transaction>1899-12-30 00:00:00.000.268,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
-    <Transaction>2026-05-26 16:44:16.293,=E:\Delphi Programms\Billing Project\Untitled1.js</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.130,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.344,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\AcData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.371,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\ItemData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.761,E:\Delphi Programms\Billing Project\Unit1.pas=E:\Delphi Programms\Billing Project\ItemData.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.243,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.037,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\AcData.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.038,E:\Delphi Programms\Billing Project\TransData.dfm=E:\Delphi Programms\Billing Project\AcData.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.503,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.819,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.550,=E:\Delphi Programms\Billing Project\Unit1.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="AcData.pas"/>
@@ -66,5 +67,7 @@
     <File Path="TransData.dfm"/>
     <File Path="TransMainForm.pas"/>
     <File Path="TransMainForm.dfm"/>
+    <File Path="TransOpenDlgForm.pas"/>
+    <File Path="TransOpenDlgForm.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

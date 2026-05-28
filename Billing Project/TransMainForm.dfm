@@ -2,7 +2,7 @@ object FormTransMain: TFormTransMain
   Left = 0
   Top = 0
   Caption = 'Trans Main'
-  ClientHeight = 605
+  ClientHeight = 621
   ClientWidth = 900
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
@@ -23,9 +23,11 @@ object FormTransMain: TFormTransMain
     Left = 0
     Top = 0
     Width = 900
-    Height = 457
+    Height = 481
     Align = alTop
     TabOrder = 0
+    ExplicitLeft = 8
+    ExplicitTop = -6
     object Label1: TLabel
       Left = 105
       Top = 84
@@ -173,6 +175,7 @@ object FormTransMain: TFormTransMain
       DataSource = DataTrans.DataSrcTrans
       LookupTable = DataTrans.QryAcLkp
       LookupField = 'AcId'
+      PopupMenu = PopupMenuAc
       TabOrder = 6
       AutoDropDown = False
       ShowButton = True
@@ -203,12 +206,33 @@ object FormTransMain: TFormTransMain
       ShowButton = True
       TabOrder = 8
     end
+    object Panel3: TPanel
+      Left = 1
+      Top = 1
+      Width = 898
+      Height = 33
+      Align = alTop
+      TabOrder = 9
+      object BtnOpen: TButton
+        Left = 1
+        Top = 1
+        Width = 75
+        Height = 31
+        Align = alLeft
+        Caption = 'Open'
+        TabOrder = 0
+        OnClick = BtnOpenClick
+        ExplicitLeft = 816
+        ExplicitTop = -1
+        ExplicitHeight = 25
+      end
+    end
   end
   object wwDBGrid1: TwwDBGrid
     Left = 0
-    Top = 457
+    Top = 481
     Width = 900
-    Height = 148
+    Height = 140
     ControlType.Strings = (
       'LkpItemName;CustomEdit;LkpCmbItemName;F')
     Selected.Strings = (
@@ -236,6 +260,7 @@ object FormTransMain: TFormTransMain
     TitleFont.Style = [fsBold]
     TitleLines = 1
     TitleButtons = False
+    ExplicitHeight = 124
     object LkpCmbItemName: TwwDBLookupCombo
       Left = 416
       Top = 64
@@ -248,11 +273,49 @@ object FormTransMain: TFormTransMain
       DataSource = DataTrans.DataSrcTransDtl
       LookupTable = DataTrans.QryItemLkp
       LookupField = 'itemID'
+      PopupMenu = PopupMenuItem
       TabOrder = 0
       AutoDropDown = False
       ShowButton = True
       PreciseEditRegion = False
       AllowClearKey = False
+    end
+    object Panel2: TPanel
+      Left = 0
+      Top = 95
+      Width = 896
+      Height = 41
+      Align = alBottom
+      TabOrder = 1
+      ExplicitLeft = 360
+      ExplicitTop = 40
+      ExplicitWidth = 185
+      object BtnDelete: TButton
+        Left = 1
+        Top = 1
+        Width = 112
+        Height = 39
+        Align = alLeft
+        Caption = 'Remove'
+        TabOrder = 0
+        OnClick = BtnDeleteClick
+      end
+    end
+  end
+  object PopupMenuAc: TPopupMenu
+    Left = 776
+    Top = 120
+    object Account1: TMenuItem
+      Caption = 'Account'
+      OnClick = Account1Click
+    end
+  end
+  object PopupMenuItem: TPopupMenu
+    Left = 776
+    Top = 200
+    object Item1: TMenuItem
+      Caption = 'Item'
+      OnClick = Item1Click
     end
   end
 end

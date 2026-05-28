@@ -6,6 +6,7 @@ object DataAc: TDataAc
   object QryAcMaster: TADOQuery
     Connection = FormMaster.Con
     CursorType = ctStatic
+    BeforePost = QryAcMasterBeforePost
     Parameters = <>
     SQL.Strings = (
       'select * from AcMaster')

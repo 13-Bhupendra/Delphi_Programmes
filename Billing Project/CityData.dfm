@@ -6,6 +6,7 @@ object DataCity: TDataCity
   object QryCity: TADOQuery
     Connection = FormMaster.Con
     CursorType = ctStatic
+    BeforePost = QryCityBeforePost
     Parameters = <>
     SQL.Strings = (
       'Select * From Citys')

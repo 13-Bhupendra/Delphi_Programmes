@@ -10,7 +10,8 @@ uses
   ItemData in 'ItemData.pas' {DataItem: TDataModule},
   TransData in 'TransData.pas' {DataTrans: TDataModule},
   CityData in 'CityData.pas' {DataCity: TDataModule},
-  CityForm in 'CityForm.pas' {FormCity};
+  CityForm in 'CityForm.pas' {FormCity},
+  TransOpenDlgForm in 'TransOpenDlgForm.pas' {FormTransOpenDlg};
 
 {$R *.res}
 
@@ -18,5 +19,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormMaster, FormMaster);
+  Application.CreateForm(TFormTransOpenDlg, FormTransOpenDlg);
   Application.Run;
 end.

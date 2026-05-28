@@ -9,9 +9,18 @@ object DataTrans: TDataTrans
     BeforePost = QryTransBeforePost
     AfterPost = QryTransAfterPost
     AfterScroll = QryTransAfterScroll
-    Parameters = <>
+    Parameters = <
+      item
+        Name = 'TransMainID'
+        Attributes = [paSigned]
+        DataType = ftInteger
+        Precision = 10
+        Size = 4
+        Value = Null
+      end>
     SQL.Strings = (
-      'select * from TransMain')
+      'select * from TransMain '
+      'where transMainID = :TransMainID')
     Left = 64
     Top = 40
     object QryTranstransMainID: TAutoIncField
@@ -111,6 +120,9 @@ object DataTrans: TDataTrans
   object QryTransDtl: TADOQuery
     Connection = FormMaster.Con
     CursorType = ctStatic
+    LockType = ltBatchOptimistic
+    BeforeDelete = QryTransDtlBeforeDelete
+    AfterDelete = QryTransDtlAfterDelete
     Parameters = <
       item
         Name = 'TransMainID'

@@ -3,7 +3,7 @@ unit AcData;
 interface
 
 uses
-  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB , Vcl.dialogs , controls;
 
 type
   TDataAc = class(TDataModule)
@@ -22,6 +22,7 @@ type
     QryCityLkpStateName: TStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure QryAcMasterCityIDChange(Sender: TField);
+    procedure QryAcMasterBeforePost(DataSet: TDataSet);
   private
     { Private declarations }
   public
@@ -43,6 +44,12 @@ procedure TDataAc.DataModuleCreate(Sender: TObject);
 begin
   QryAcMaster.Open;
   QryCityLkp.Open;
+end;
+
+procedure TDataAc.QryAcMasterBeforePost(DataSet: TDataSet);
+begin
+  if MessageDlg('Sure you want to Add AC ?' , mtConfirmation , [mbYes , mbNo] , 0) = mrNo then
+  Abort
 end;
 
 procedure TDataAc.QryAcMasterCityIDChange(Sender: TField);

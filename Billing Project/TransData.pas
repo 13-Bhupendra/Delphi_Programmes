@@ -3,7 +3,8 @@ unit TransData;
 interface
 
 uses
-  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB;
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, vcl.dialogs, controls,
+  Vcl.Menus;
 
 type
   TDataTrans = class(TDataModule)
@@ -50,6 +51,8 @@ type
     procedure QryTransBeforePost(DataSet: TDataSet);
     procedure QryTransAfterPost(DataSet: TDataSet);
     procedure QryTransAfterScroll(DataSet: TDataSet);
+    procedure QryTransDtlBeforeDelete(DataSet: TDataSet);
+    procedure QryTransDtlAfterDelete(DataSet: TDataSet);
   private
     { Private declarations }
     procedure CalcInvoiceBill;
@@ -64,7 +67,7 @@ implementation
 
 {%CLASSGROUP 'Vcl.Controls.TControl'}
 
-uses MasterForm;
+uses MasterForm, AcMasterForm;
 
 {$R *.dfm}
 
@@ -99,6 +102,7 @@ begin
 
     QryTransDtl.Next;
   end;
+  QryTransDtl.UpdateBatch();
 end;
 
 procedure TDataTrans.QryTransAfterScroll(DataSet: TDataSet);
@@ -114,6 +118,9 @@ procedure TDataTrans.QryTransBeforePost(DataSet: TDataSet);
   var
     dAmount , dGstAmt , dNetAmt : Double;
 begin
+  if MessageDlg('Sure?', mtConfirmation, [mbYes, mbNo], 0) = mrNo then
+    Abort;
+
   dAmount := 0;
   dGstAmt :=0;
   dNetAmt := 0;
@@ -130,7 +137,18 @@ begin
   QryTransTotalBasicAmount.AsFloat := dAmount;
   QryTransTotalGst.AsFloat := dGstAmt;
   QryTransTotalNetAmount.AsFloat := dNetAmt;
-//  QryTransDtl.Last;
+
+end;
+
+procedure TDataTrans.QryTransDtlAfterDelete(DataSet: TDataSet);
+begin
+  QryTrans.Edit;
+end;
+
+procedure TDataTrans.QryTransDtlBeforeDelete(DataSet: TDataSet);
+begin
+  if MessageDlg('Delele TransDetail ?', mtInformation , [mbYes , mbNo] , 0) = mrNo then
+  Abort
 end;
 
 procedure TDataTrans.QryTransDtlItemIDChange(Sender: TField);
